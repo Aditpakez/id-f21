@@ -1,0 +1,19 @@
+.parent {
+    color : blue;
+}
+.parent p {
+    color: red;
+}
+.parent > p {
+    color: aqua;
+}
+.parent + p{
+    color: orangered;
+}
+
+.parent ~ p{
+    color: violet;
+}
+.parent3 p {
+    color: darkblue;
+}

@@ -1,0 +1,33 @@
+body {
+    min-height: : 200vh;
+}
+.box-relative {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    top: 100px;
+    left: 50px;
+}
+.box-absolute {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.box-fixed {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    top:50px;
+    left: 50px;
+}
+.box-sticky {
+    position: sticky;
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    top:0px;
+    left: 200px;
+}
